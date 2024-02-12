@@ -25,6 +25,7 @@ public class GameLoop extends Main{
 
             } else if (option == 2){
 
+
             } else {
                 System.out.println("Thank you for playing!");
                 exitLoop = false;

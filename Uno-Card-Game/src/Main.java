@@ -1,8 +1,24 @@
+import cards.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+
 public class Main {
     static boolean exitLoop;
     public static void main(String[] args) {
+        GreenCard card = new GreenCard();
+        System.out.println(card.numGen());
+        System.out.println(card.colorGen());
+
+
+
+
+
+
+
+
+
+
         Scanner scanner = new Scanner(System.in);
         int userOption =  0;
         System.out.println("    Welcome to Uno!");
